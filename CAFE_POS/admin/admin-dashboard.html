@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Admin Dashboard</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/admin-dashboard-style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar px-4 d-flex justify-content-between">
+        <span class="navbar-brand fw-bold fs-4">ADMIN DASHBOARD</span>
+
+        <form method="post" action="../login.html" class="m-0">
+            <button type="submit" class="logout-btn btn">
+                <i class="bi bi-house-door-fill"></i> Back to Home</button>
+        </form>
+    </nav>
+
+    <!-- CARD -->
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 90vh;">
+
+        <div class="dashboard-card">
+
+            <h3 class="text-center fw-bold mb-4">Welcome, Admin</h3>
+
+            <div class="d-grid gap-3">
+
+                <a href="./menu/manage-menu.php" class="btn menu-btn">
+                    <i class="bi bi-list-ul me-2"></i> Manage Menu
+                </a>
+
+                <a href="./reports/view-reports.php" class="btn menu-btn">
+                    <i class="bi bi-bar-chart-line me-2"></i> View Reports
+                </a>
+
+                <a href="./cashiers/manage-cashiers.php" class="btn menu-btn">
+                    <i class="bi bi-people-fill me-2"></i> Manage Cashiers
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

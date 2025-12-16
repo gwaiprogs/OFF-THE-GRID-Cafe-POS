@@ -1,0 +1,46 @@
+body {
+    background-image: url("../photos/bg-matcha.png");
+    font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+.navbar-brand {
+    background-color: #658C58;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #658C58 !important;
+}
+
+/* LOGIN BUTTONS */
+.login-btn {
+    background-color: #5A7863 !important;
+    border-color: #5A7863 !important;
+    color: #ffffff !important;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    width: 300px;
+}
+
+.login-btn:hover {
+    background-color: #496154 !important; 
+    border-color: #496154 !important;
+    color: #ffffff !important;
+}
+
+/* FONTS USED */
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/Poppins-Bold.ttf") format("truetype");
+    font-weight: 700;
+}

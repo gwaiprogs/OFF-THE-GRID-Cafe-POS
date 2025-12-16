@@ -1,0 +1,143 @@
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../photos/bg-matcha.png");  
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/* Payment Container */
+.payment-container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+/* Logo Header */
+.logo-header {
+    background: #658C58;  
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.logo-header h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* Order Table */
+.order-table {
+    margin: 0;
+}
+
+.order-table th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 600;
+    color: #495057;
+}
+
+.order-table td {
+    vertical-align: middle;
+    padding: 15px;
+}
+
+/* Total Row */
+.total-row {
+    background-color: #f8f9fa;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/* Payment Section */
+.payment-section {
+    padding: 30px;
+    background-color: #f8f9fa;
+}
+
+/* Payment Method */
+.payment-method {
+    border: 2px solid #5A7863;  /* Match border with your color scheme */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background: white;
+}
+
+.payment-method:hover {
+    border-color: #5A7863;  /* Change to match the active color */
+    box-shadow: 0 4px 12px rgba(90, 120, 99, 0.2);
+}
+
+.payment-method.active {
+    border-color: #5A7863;  /* Active state border */
+    background: linear-gradient(135deg, #5A786310 0%, #3B495310 100%);
+}
+
+.payment-method input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.payment-method i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+/* Cash Details, QR Details, and Card Details */
+.cash-details, .qr-details, .card-details {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #5A7863;  /* Adjust border to color scheme */
+}
+
+/* QR Code Image */
+.qr-code-img {
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    border: 3px solid #5A7863;  /* Adjust border to color scheme */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Print Button */
+.print-btn {
+    background: linear-gradient(135deg, #5A7863 0%, #3B4953 100%);  /* Gradient to match theme */
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.3s;
+}
+
+.print-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(90, 120, 99, 0.4);
+}
+
+/* Navbar */
+/* NAVBAR */
+.navbar-brand {
+    background-color: #658C58;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #658C58 !important;
+}
