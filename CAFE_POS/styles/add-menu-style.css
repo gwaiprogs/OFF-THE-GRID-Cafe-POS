@@ -1,0 +1,102 @@
+/* BACKGROUND */
+body {
+    background-image: url("../photos/bg-matcha.png");
+    font-family: "Poppins", sans-serif;
+    color: #3B4953;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #658C58 !important;
+    height: 65px;
+}
+.navbar-brand {
+    color: #EBF4DD !important;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* BACK TO MANAGE MENU BUTTON */
+.logout-btn {
+    border: 2px solid #EBF4DD;
+    color: #EBF4DD !important;
+    border-radius: 10px;
+    padding: 6px 15px;
+    font-weight: 500;
+    background: transparent;
+}
+.logout-btn:hover {
+    background-color: #EBF4DD !important;
+    color: #3B4953 !important;
+}
+
+/* MAIN CARD */
+.main-card {
+    width: 900px;
+    background: #EBF4DD;
+    border-radius: 25px;
+    padding: 40px 50px;
+    border: 3px solid #5A7863;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* CATEGORY BUTTONS */
+.main-btn {
+    width: 220px;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 12px;
+    background-color: #90AB8B !important;
+    border: 2px solid #3B4953 !important;
+    color: #3B4953 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* spacing between icon + text */
+    transition: 0.2s ease-in-out;
+}
+
+.main-btn:hover {
+    background-color: #7a9275 !important;
+}
+
+/* SPACING */
+.mt-section {
+    margin-top: 80px;
+}
+
+/* FORM CARD */
+.form-container {
+    background: #EBF4DD;
+    border-radius: 20px;
+    padding: 35px;
+    border: 3px solid #5A7863;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* LABELS */
+.label-text {
+    font-weight: 600;
+    color: #3B4953;
+}
+
+/* INPUTS */
+.add-input {
+    border: 2px solid #3B4953 !important;
+    border-radius: 12px;
+    padding: 10px 12px;
+    color: #3B4953 !important;
+}
+
+/* SUBMIT BUTTON */
+.btn-submit {
+    background-color: #5A7863 !important;
+    color: #EBF4DD !important;
+    border-radius: 14px;
+    padding: 12px 0;
+    font-weight: bold;
+}
+.btn-submit:hover {
+    background-color: #3B4953 !important;
+}

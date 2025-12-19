@@ -1,0 +1,218 @@
+/* BACKGROUND */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../photos/bg-matcha.png");
+}
+
+/* NAVBAR */
+.navbar-brand {
+    background-color: #658C58;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #658C58 !important;
+}
+
+
+/* CATEGORY BUTTONS */
+.category-btn {
+    border: 2px solid #5A7863;  
+    background: #ffffff;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #5A7863;
+}
+
+.category-btn.active {
+    background: #5A7863;
+    color: white;
+    border: 2px solid #5A7863;  
+}
+
+/* DRINK CARDS */
+.drink-card {
+    background: white;
+    padding: 15px;
+    border-radius: 16px;
+    text-align: center;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.drink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.drink-img {
+    width: 100%;
+    height: auto;        
+    object-fit: contain; 
+}
+
+.price {
+    color: #3B4953;
+    font-weight: 600;
+    margin: 4px 0;
+}
+
+/* ORDER BOX */
+.order-box {
+    background: white;
+    border-radius: 16px;
+}
+
+.order-item {
+    background: #fafafa;
+    border: 1px solid #eee;
+}
+
+
+/* SIZE BUTTONS */
+.size-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.size-btn {
+    border: 2px solid #5A7863;
+    background: white;
+    padding: 8px 14px;
+    border-radius: 25px;   
+    font-weight: 600;
+    color: #5A7863;
+    transition: 0.25s;
+}
+
+.size-btn:hover {
+    background: #5A7863;
+    color: white;
+}
+
+/* QUANTITY BUTTONS AND INPUT */
+.qty-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.qty-input {
+    width: 55px;
+    height: 36px;
+    text-align: center;
+    border: 2px solid #5A7863;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5A7863;
+}
+
+.qty-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background-color: #5A7863;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.qty-btn:hover {
+    background-color: #496154;
+}
+
+/* REMARKS */
+.remarks {
+    resize: none !important;
+    overflow: hidden;
+}
+
+/* SEARCH BAR STYLING */
+input[name="search"] {
+    padding: 8px 15px;
+    border: 2px solid #5A7863;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.3s;
+    min-width: 250px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[name="search"]:focus {
+    border-color: #3B4953;
+    box-shadow: 0 0 0 3px rgba(90, 120, 99, 0.1);
+}
+
+input[name="search"]::placeholder {
+    color: #999;
+}
+
+
+/* PRODUCT GRID LAYOUT FOR SEARCH */
+.category-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.category-section .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.333333%;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-bottom: 24px;
+}
+
+.category-section .col-md-4[style*="display: none"] {
+    display: none !important;
+}
+
+.category-section .col-md-4[style*="display: block"],
+.category-section .col-md-4:not([style*="display"]) {
+    display: block;
+}
+
+.no-results-message {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.no-results-message i {
+    font-size: 3rem;
+    color: #ccc;
+}
+
+.no-results-message p {
+    margin-top: 15px;
+    color: #999;
+    font-size: 16px;
+}
+
+/* RESPONSIVE ADJUSTMENTS */
+@media (max-width: 991px) {
+    .category-section .col-md-4 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 575px) {
+    .category-section .col-md-4 {
+        width: 100%;
+    }
+    
+    input[name="search"] {
+        min-width: 200px;
+    }
+}
